@@ -1,0 +1,71 @@
+:root {
+    --coolor1: #5BC6B9;
+    --coolor2: #42A3CF;
+    --coolor3: #2871CC;
+    --coolor4: #062D5A;
+    --coolor5: #9E7EC7;
+
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main-header {
+    background-color: var(--coolor1);
+}
+
+hr.solid {
+    border-top: 3px solid var(--coolor5);
+}
+
+.header-risco {
+    color: white;
+    background-color: var(--coolor4);
+}   
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--coolor1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--coolor4);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.card-ong{
+    background: var(--coolor4);
+    color: white;
+}
+
+.mapa{
+    background-color:  gray;
+}
+
+.desc-mapa{
+    background-color: var(--coolor4);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 20%;
+}
+
+gmp-map {
+    height: 100%;
+}

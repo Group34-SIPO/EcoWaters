@@ -1,0 +1,125 @@
+[
+  {
+    "SHIP_ID": "1234567",
+    "LAT": 37.7749,
+    "LON": -122.4194,
+    "SPEED": 13.5,
+    "COURSE": 85,
+    "TIMESTAMP": "2024-06-05T12:00:00Z",
+    "DESTINATION": "Port of Oakland",
+    "VESSEL_NAME": "Marine Voyager"
+  },
+  {
+    "SHIP_ID": "7654321",
+    "LAT": 34.0522,
+    "LON": -118.2437,
+    "SPEED": 10.2,
+    "COURSE": 110,
+    "TIMESTAMP": "2024-06-05T12:30:00Z",
+    "DESTINATION": "Port of Los Angeles",
+    "VESSEL_NAME": "Ocean Explorer"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "11",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8799,
+    "LON": -87.6312,
+    "SPEED": 15.6,
+    "COURSE": 46,
+    "TIMESTAMP": "2024-06-05T13:15:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+
+  {
+    "SHIP_ID": "7654321",
+    "LAT": 34.0522,
+    "LON": -118.2437,
+    "SPEED": 10.2,
+    "COURSE": 110,
+    "TIMESTAMP": "2024-06-05T12:30:00Z",
+    "DESTINATION": "Port of Los Angeles",
+    "VESSEL_NAME": "Ocean Explorer"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "21",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "11",
+    "LAT": 41.8781,
+    "LON": -87.6298,
+    "SPEED": 15.8,
+    "COURSE": 45,
+    "TIMESTAMP": "2024-06-05T13:00:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8799,
+    "LON": -87.6312,
+    "SPEED": 15.6,
+    "COURSE": 46,
+    "TIMESTAMP": "2024-06-05T13:15:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  },
+  {
+    "SHIP_ID": "9876543",
+    "LAT": 41.8755,
+    "LON": -87.6283,
+    "SPEED": 15.5,
+    "COURSE": 47,
+    "TIMESTAMP": "2024-06-05T13:10:00Z",
+    "DESTINATION": "Port of Chicago",
+    "VESSEL_NAME": "Great Lakes Freighter"
+  }
+
+
+]
