@@ -1,0 +1,93 @@
+<!-- AIzaSyDoMWtEEPNHWqv7OnOt9VgIsWmus_H0ncMi -->
+<!doctype html>
+<html lang="pt-br"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>EcoWaters</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home">EcoWaters</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home/especiesemrisco">Espécies em risco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/api/oceanview/praias">Focos de Poluição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/api/marinetraffic/vessels">Trafego Marítimo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home/comoajudar">Como Você pode Ajudar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="container mt-5" style="text-align: center;">Salve os animais que vivem no oceano!</h1>
+    <div class="container d-flex mt-5">
+        <div class="m-2">
+            Bem-vindo ao nosso portal dedicado à conservação da vida marinha! 🌊🐠<br>
+            Nosso oceano é um tesouro vasto e precioso, repleto de biodiversidade e ecossistemas únicos que sustentam a
+            vida no planeta. Desde os majestosos recifes de corais até as profundezas inexploradas dos abismos marinhos,
+            cada canto do oceano desempenha um papel crucial na manutenção do equilíbrio ambiental e no suporte às
+            comunidades humanas. <br>
+            Aqui, nossa missão é promover a conscientização e a ação em prol da preservação dos mares. Através de
+            iniciativas educativas, projetos de conservação e colaborações globais, buscamos proteger e revitalizar os
+            habitats marinhos, garantindo um futuro sustentável para as gerações futuras.
+
+        </div>
+        <div>
+            <img src="../static/assets/lixomaritmo.png" alt="" style="width: 30rem;">
+        </div>
+    </div>
+    <div class="d-flex" style="justify-content: center;">
+        <hr class="solid" style="width: 80%;">
+    </div>
+    <div class="container d-flex mt-5"
+        style="flex-direction: column; align-items: center; justify-items: center; text-align: center;">
+        <p>No nosso site, você encontrará informações detalhadas sobre as ameaças que os oceanos enfrentam como a
+            poluição. Além disso, oferecemos dicas práticas sobre como você
+            pode contribuir para a preservação da vida marinha no seu dia a dia, seja reduzindo o uso de plásticos,
+            apoiando práticas de pesca sustentável ou participando de campanhas de limpeza das praias.</p>
+            <p>Junte-se a nós nessa jornada para proteger os oceanos! Cada pequena ação faz a diferença e, juntos, podemos
+                criar um impacto positivo e duradouro. Explore nossos recursos, participe das nossas campanhas e torne-se um
+                defensor da vida marinha.</p>
+        <a class="btn btn-primary mb-5" href="/home/comoajudar">Como você pode ajudar?</a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
